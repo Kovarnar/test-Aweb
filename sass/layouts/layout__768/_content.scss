@@ -11,6 +11,14 @@
         text-align: left;
         margin: 0;
         align-self: center;
+        padding: 0 0 390px;
+
+        .fact{
+            &__num{
+                font-size: rem(100px);
+                margin-bottom: 60px;
+            }
+        }
     }
 }
 

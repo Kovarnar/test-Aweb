@@ -3,7 +3,7 @@
     li{
         position: relative;
         @include text;
-        padding-left: 34px;
+        padding-left: 24px;
         line-height: 1.38;
         &:not(:last-child){
             margin-bottom: 8px;
