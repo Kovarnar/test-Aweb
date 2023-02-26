@@ -1,0 +1,29 @@
+.card {
+    &__image {
+        img{
+            width: 100%;
+            height: unset;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 24px;
+        }
+    }
+
+    &__line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__text {
+        @include text;
+        line-height: 1.38;
+    }
+}

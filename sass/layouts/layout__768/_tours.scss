@@ -1,0 +1,6 @@
+.tours {
+    padding: 25px 0;
+    &__list {
+        grid-template-columns: 1fr 1fr;
+    }
+}

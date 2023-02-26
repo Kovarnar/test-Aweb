@@ -1,0 +1,27 @@
+.button{
+    padding: 1px;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 50em;
+    overflow: hidden;
+    background: linear-gradient(180deg, #008BAA 0%, #00AAAA 100%);
+    color: $background;
+    font-family: $arialFont;
+    font-weight: 700;
+    font-size: rem(16px);
+    line-height: 1.3125;
+    transition: box-shadow .3s ease;
+    span{
+        display: block;
+        padding: 12px 25px;
+        width: 190px;
+        background: linear-gradient(180deg, #00AAAA 0%, #008BAA 100%),
+        linear-gradient(180deg, #008BAA 0%, #00AAAA 100%);
+        border-radius: 50em;
+        overflow: hidden;
+    }
+    &:hover, &:focus {
+        box-shadow: 0 0 15px .1px #008BAA;
+    }
+}

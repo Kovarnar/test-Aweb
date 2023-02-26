@@ -1,0 +1,15 @@
+.lable {
+    width: 250px;
+    height: 250px;
+    &__name{
+        font-size: rem(25px);
+        margin-bottom: 16px;
+    }
+    &__code{
+        font-size:  rem(14px);
+        margin-bottom: 7px;
+    }
+    &__num{
+        font-size: rem(24px);
+    }
+}

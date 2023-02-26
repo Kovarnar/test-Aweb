@@ -1,0 +1,16 @@
+.article {
+    &__title {
+        &--h3{
+            font-size: rem(48px);
+        }
+    }
+
+    &__text {
+        &--quote{
+            margin-left: 48px;
+        }
+    }
+    &__wrapper{
+        padding: 16px;
+    }
+}

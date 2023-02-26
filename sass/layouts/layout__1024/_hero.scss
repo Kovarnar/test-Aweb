@@ -1,0 +1,26 @@
+.hero{
+    &__content{
+        position: relative;
+        &::before {
+            content: url('../img/white.svg');
+            z-index: 0;
+            display: block;
+            position: absolute;
+            top: -65px;
+            right: 0;
+            width: 422px;
+            height: 65px;
+
+        }
+    }
+    &__fact{
+        position: absolute;
+        top: -20px;
+        right: 0;
+        width: 422px;
+        .fact__name{
+            width: 144px;
+            margin: 0 auto;
+        }
+    }
+}

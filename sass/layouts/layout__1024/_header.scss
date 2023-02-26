@@ -1,0 +1,18 @@
+.header {
+    &__contacts{
+        gap: 100px;
+    }
+    &__phone{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        a {
+            font-size: rem(30px);
+        }
+        span {
+            display: unset;
+            font-size: rem(16px);
+        }
+    }
+    
+}

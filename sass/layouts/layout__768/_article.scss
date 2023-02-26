@@ -1,0 +1,12 @@
+.article {
+    &__title {
+        &--h3{
+            font-size: rem(44px);
+        }
+    }
+    &__text {
+        &--quote{
+            margin-left: 32px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    &__logo{
+        img{
+            width: unset;
+            height: unset;
+        }
+        span{
+            max-width: 150px;
+            font-size: rem(16px);
+        }
+    }
+    &__contacts{
+        gap: 40px;
+    }
+    &__phone{
+        a {
+            font-size: rem(26px);
+        }
+    }
+    
+}

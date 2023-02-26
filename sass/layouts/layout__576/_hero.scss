@@ -1,0 +1,11 @@
+.hero{
+    &__content{
+        display: grid;
+        grid-template-columns: auto 200px;
+        gap: 30px;
+    }
+    &__fact{
+        order: 5;
+        margin-bottom: unset;
+    }
+}

@@ -1,0 +1,10 @@
+.stars {
+    display: flex;
+    gap: 3px;
+    &__item {
+        .icon {
+            width: 27px;
+            height: 26px;
+        }
+    }
+}

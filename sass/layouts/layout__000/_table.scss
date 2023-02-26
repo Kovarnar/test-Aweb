@@ -1,0 +1,28 @@
+.table {
+    width: 100%;
+    font-family: $dmSansFont;
+    font-size: rem(11px);
+    letter-spacing: 0.1px;
+    line-height: 1.43;
+    border-spacing: 4px 6px;   // 8px 16px;
+    border-collapse: collapse;
+    
+    thead{
+        width: 100%;
+        font-weight: 700;
+        background-color: $color-bg-secondary;
+    }
+    tbody{
+        width: 100%;
+        tr:not(:last-child){
+            border-bottom: 1px solid $border;
+        }
+    }
+    th, td{
+        padding: 14px 8px;
+        width: 25%;
+        max-width: 184px;
+        text-align: left;
+        hyphens: auto;
+    }
+}

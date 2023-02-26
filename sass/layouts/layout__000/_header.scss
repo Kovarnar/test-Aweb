@@ -1,0 +1,67 @@
+.header {
+    padding: 30px 0;
+    background-color: $colorPrimary;
+    font-family: $arialFont;
+    font-weight: 400;
+    color: $background;
+    margin-bottom: 24px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__logo{
+        img{
+            width: 90px;
+            height: unset;
+        }
+        span{
+            display: none;
+        }
+    }
+
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 10px;
+    }
+
+    &__phone{
+        a {
+            font-size: rem(16px);
+        }
+        span{
+            display: none;
+        }
+    }
+    
+    &__social{
+        .social__item{
+            background-color: $background;
+            .icon{
+                fill: $colorPrimary;
+            }
+            &:hover, &:active {
+                box-shadow: 0 0 10px 0.5px $background;
+                
+            }
+        }
+        .social__item--facebook{
+            &:hover, &:active{
+                .icon{
+                    fill: $facebookColor;
+                }
+            }
+        }
+        .social__item--telegram{
+            &:hover, &:active{
+                .icon{
+                    fill: $telegramColor;
+                }
+            }
+        }
+    }
+}

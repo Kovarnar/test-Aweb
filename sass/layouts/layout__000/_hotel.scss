@@ -1,0 +1,29 @@
+.hotel {
+    &__block {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        &--top{
+            gap: 20px;
+            margin-bottom: 27px;
+        }
+        &--bottom{
+            gap: 24px;
+        }
+    }
+
+    &__caption {}
+
+    &__stars {}
+
+    &__price {}
+
+    &__info {
+    }
+
+    &__features {
+    }
+
+    &__item {
+    }
+}

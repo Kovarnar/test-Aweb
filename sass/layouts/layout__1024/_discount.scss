@@ -1,0 +1,14 @@
+.discount {
+    &__content {
+        flex-direction: unset;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    &__price {
+        width: 125px;
+        text-align: center;
+    }
+}
+
+

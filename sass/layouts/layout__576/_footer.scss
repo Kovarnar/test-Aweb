@@ -1,0 +1,14 @@
+.footer {
+    padding: 16px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &::before {
+            top: -16px;
+        }
+    }
+    &__text {
+        margin-bottom: unset;
+    }
+}

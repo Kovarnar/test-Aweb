@@ -1,0 +1,24 @@
+.fact {
+    display: flex;
+    flex-direction: column;
+    &__num{
+        font-family: $trebuchetMSFont;
+        font-weight: 700;
+        color: $color-text-secondary;
+        letter-spacing: -0.05em;
+    }
+    &__name{
+        font-family: $arialFont;
+        font-weight: 400;
+        font-size: rem(30px);
+        line-height: 1.035;
+        color: $color-text;
+    }
+    &__text{
+        font-family: $arialFont;
+        font-weight: 400;
+        font-size: rem(20px);
+        line-height: 1.265;
+        color: $color-text-secondary;
+    }
+}

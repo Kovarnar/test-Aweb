@@ -1,0 +1,48 @@
+.footer {
+    padding: 30px 0;
+    background-color: $background;
+
+    .container {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            top: -30px;
+            left: 16px;
+            height: 1px;
+            width: calc(100% - 32px);
+            background-color: $border;
+        }
+    }
+
+    &__text {
+        margin-bottom: 20px;
+        font-family: $arialFont;
+        font-weight: 400;
+        font-size: rem(12px);
+        color: $color-text;
+        line-height: 1.38;
+        a{
+            color: $linkColor;
+        }
+    }
+
+    &__social{
+        justify-content: center;
+        .social__item--facebook {
+            background-color: $facebookColor;
+            &:hover, &:active{
+                box-shadow: 0 0 10px 0.5px $facebookColor;
+            }
+        }
+        .social__item--telegram {
+            background-color: $telegramColor;
+            &:hover, &:active{
+                box-shadow: 0 0 10px 0.5px $telegramColor;
+            }
+        }
+        .icon{
+            fill: $background;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.list {
+    margin-left: 10px;
+    li{
+        position: relative;
+        @include text;
+        padding-left: 34px;
+        line-height: 1.38;
+        &:not(:last-child){
+            margin-bottom: 8px;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: $color-text;
+        }
+    }
+}

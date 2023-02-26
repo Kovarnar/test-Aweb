@@ -1,0 +1,24 @@
+.details {
+    padding: 16px 30px;
+    background-color: $color-bg-secondary;
+    border: 1px solid $border;
+    color: $color-text-secondary;
+    font-family: $arialFont;
+    font-size: rem(13px);
+    line-height: 1.2;
+    @include center;
+    gap: 8px;
+    transition: all .3s ease;
+    .icon {
+        width: 16px;
+        height: 16px;
+        stroke: #777777;
+        transition: all .3s ease;
+    }
+    &:hover {
+        color: $color-text;
+        .icon {
+            stroke: $color-text;
+        }
+    }
+}
